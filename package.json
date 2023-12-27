@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-css-mini-projects",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start-project": "cross-env PROJECT=$npm_config_project npm run dev --workspace=$PROJECT",
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test",
+    "deploy": "lerna publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "lerna": "^8.0.1"
+  }
+}
