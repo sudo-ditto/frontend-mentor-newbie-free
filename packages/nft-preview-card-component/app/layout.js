@@ -6,12 +6,12 @@ const outfit = Outfit({
   weight: ['300', '400', '600'],
   style: ['normal'],
   subsets: ['latin'],
-  display: 'swap',
+  display: 'swap'
 })
 
 export const metadata = {
   title: 'NFT Preview Card Component',
-  description: 'Frontend Mentor Project',
+  description: 'Frontend Mentor Project'
 }
 
 export default function RootLayout({ children }) {
