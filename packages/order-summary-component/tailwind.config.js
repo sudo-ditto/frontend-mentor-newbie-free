@@ -8,17 +8,29 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        white: 'hsl(0, 0%, 100%)',
-        lightGrey: 'hsl(212, 45%, 89%)',
-        grayishBlue: 'hsl(220, 15%, 55%)',
-        darkBlue: 'hsl(218, 44%, 22%)'
+        // Primary
+        paleBlue: 'hsl(225, 100%, 94%)',
+        brightBlue: 'hsl(245, 75%, 52%)',
+
+        // Neutral
+        veryPaleBlue: 'hsl(225, 100%, 98%)',
+        desaturatedBlue: 'hsl(224, 23%, 55%)',
+        darkBlue: 'hsl(223, 47%, 23%)'
       },
       screens: {
-        sm: '375px',
+        md: '376px',
         '2xl': '1440px'
       },
       borderRadius: {
-        '2xl': '1.25rem'
+        '3xl': '1.25rem'
+      },
+      boxShadow: {
+        card: '0px 40px 40px -20px rgba(13, 48, 189, 0.15)',
+        orderButton: '0px 20px 20px 0px rgba(56, 42, 225, 0.19)'
+      },
+      backgroundImage: {
+        backgroundMobile: "url('/images/pattern-background-mobile.svg')",
+        backgroundDesktop: "url('/images/pattern-background-desktop.svg')"
       }
     }
   },
