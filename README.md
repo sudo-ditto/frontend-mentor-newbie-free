@@ -47,9 +47,13 @@ Below is the list of the challenges that are completed in this monorepo, along w
    - Code: [GitHub Link](https://github.com/sudo-ditto/frontend-mentor-newbie-free/tree/main/packages/qr-code-component)
    - Live: [Live Version](https://sudo-ditto-qr-code-component.vercel.app/)
 
-4. **Results Summary Component** (In development)
+4. **Results Summary Component**
    - Code: [GitHub Link](https://github.com/sudo-ditto/frontend-mentor-newbie-free/tree/main/packages/qr-code-component)
    - Live: [Live Version](https://sudo-ditto-results-summary-component.vercel.app/)
+
+5. **Order Summary Component**
+   - Code: [GitHub Link](https://github.com/sudo-ditto/frontend-mentor-newbie-free/tree/main/packages/order-summary-component)
+   - Live: [Live Version](https://sudo-ditto-order-summary-component.vercel.app/)
 
 ## Getting Started
 
