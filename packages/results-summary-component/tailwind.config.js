@@ -27,14 +27,21 @@ module.exports = {
         persianBlue: 'hsla(241, 72%, 46%, 0)'
       },
       screens: {
-        xs: '375px',
+        md: '715px',
         '2xl': '1440px'
       },
       borderRadius: {
-        '2xl': '1.25rem'
+        '4xl': '2rem'
+      },
+      width: {
+        100: '680px'
       },
       backgroundImage: {
         gradient:
+          'linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%)',
+        scoreGradient:
+          'linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%)',
+        buttonGradient:
           'linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%)'
       }
     }
